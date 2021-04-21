@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'demOnIBMi.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
+    'sqlite3': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db/db.sqlite3',
     },
@@ -90,7 +90,7 @@ DATABASES = {
         'HOST': '172.17.50.203',
         'PORT': '3306',
     },
-    'postgdb': {
+    'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'postgdb',
         'USER': 'postgres',
