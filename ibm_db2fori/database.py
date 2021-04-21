@@ -7,7 +7,7 @@ class DbSettings:
     DATABASES = {
         'Db2fori': {
             'ENGINE': 'ibm_db_django',
-            'NAME': 'BAFBKP',
+            'NAME': 'DBNAME',
             'USER': 'USUARIO1',
             'PASSWORD': 'XXXXXX',
             'HOST': 'XXX.XX.XX.XXX',
