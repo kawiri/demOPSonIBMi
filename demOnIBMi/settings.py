@@ -87,7 +87,7 @@ DATABASES = {
         'NAME': 'mariadb',
         'USER': 'gabriel',
         'PASSWORD': 'admin123',
-        'HOST': '172.17.50.203',
+        'HOST': 'XXX.XX.XX.XXX',
         'PORT': '3306',
     },
     'default': {
@@ -95,7 +95,7 @@ DATABASES = {
         'NAME': 'postgdb',
         'USER': 'postgres',
         'PASSWORD': 'admin123',
-        'HOST': '172.17.50.203',
+        'HOST': 'XXX.XX.XX.XXX',
         'PORT': '5432',
     },
 }
